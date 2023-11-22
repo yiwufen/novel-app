@@ -1,0 +1,36 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+  font-weight: normal;
+  display: flex; /* 启用 Flexbox */
+  flex-direction: column; /* 子元素沿垂直方向排列 */
+  align-items: center; /* 水平居中对齐子元素 */
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+.font_black {
+  font-family: Arial, sans-serif; /* Arial 是一种清晰、易读的字体 */
+  color: #000000; /* 黑色字体 */
+  font-size: 17px; /* 标准字体大小，可根据需要调整 */
+  line-height: 1.6; /* 行高，增加文本的可读性 */
+}
+
+.margin_mid {  /* 使元素居中 */
+  width: 50%; /* 或任何固定宽度 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text { /* 使文本居中 */
+  text-align: center; 
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+    <div class = "header">
+    <img alt="Vue logo" class="logo" src="./src/assets/logo.svg" width="40" height="40" />
+    <p class="font_black">智能写作</p>
+    </div>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
+<style>
+.header {
+  display: flex; /* 启用 Flexbox 布局 */
+    align-items: center; /* 垂直居中对齐 */
+    justify-content: flex-start; /* 水平方向从左边开始对齐 */
+    width: 100%; /* header 占据整个页面宽度 */
+    height: 50px; /* 设置 header 的高度，确保足够空间放置 logo */
+    background-color: #fff; /* 可选：设置背景颜色 */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+body{
+  background-color:#fff;
+}
+.logo {
+    margin-left: 15px; /* 在 logo 和左侧边缘之间添加一些间距 */
+}
+</style>
